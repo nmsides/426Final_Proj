@@ -1,0 +1,290 @@
+html{
+    background-color: green;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#acc{
+    margin-top: 5%;
+    margin-left: 2%;
+    border-radius: 25px;
+    background-color: lightgreen;
+    font-size: 16px;
+}
+
+#container{
+    border: solid black;
+    width: 75%;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 25px;
+    margin-top: 5%;
+    box-shadow: 10px 5px 5px black;
+    background-color: lightgreen;
+}
+
+#ul_cont{
+    height: 397px;
+    overflow: scroll;
+}
+
+h2{
+    margin-left: 5%;
+}
+
+#input {
+  width: 90%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+ border-radius: 25px;
+    margin-left: 5%;
+  margin-bottom: 12px;
+    background-color: palevioletred;
+   border: black;
+    color: white;
+}
+
+#input:focus {
+  background-color: lightpink;
+    color: white;
+}
+
+#flight_list {
+  list-style-type: none;
+  width: 90%;
+  padding: 0;
+  margin-left: 5%;
+}
+
+#flight_list li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; 
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+  background-color: palevioletred;
+}
+
+::placeholder{
+    color: white;
+}
+
+#flight_list li a:hover {
+  background-color: lightpink;
+    height: 60px;
+   padding-top: 2.8%;
+    box-shadow: 10px 5px 5px palevioletred;
+    color: black;
+}
+
+
+#congrats{
+    color: palevioletred;
+    text-align: center;
+    margin-bottom: -50px;
+    font-size: 40px;
+}
+
+#sched{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+#another{
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 25px;
+    font-size: 15px;
+    background-color: palevioletred;
+}
+
+#another:hover{
+    background-color: lightcoral;
+}
+
+#no{
+     margin-top: 15px;
+    padding: 5px;
+    border-radius: 25px;
+    font-size: 15px;
+    background-color: palevioletred;
+    margin-left: 15px;
+}
+
+#no:hover{
+    background-color: lightcoral;
+}
+
+
+#nofl{
+     text-decoration: none;
+    color: white;
+}
+#an{
+    text-decoration: none;
+    color: white;
+}
+
+hr{
+    color: white;
+}
+
+
+@media only screen and (max-width: 800px) {
+  #congrats {
+    font-size: 30px;
+      margin-bottom: 2%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #congrats {
+    font-size: 20px;
+      margin-bottom: 2%;
+  }
+}
+
+
+
+.tic {
+    margin-bottom: 10px;
+}
+
+#myTicket {
+    border: solid black;
+    margin: 10 auto;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 10px 5px 5px black;
+    background-color: lightgreen;
+    width: 97%;
+    align-content: center;
+}
+#myInfo {
+    border: solid black;
+    margin: 10 auto;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 10px 5px 5px black;
+    background-color: lightgreen;
+    width: 97%;
+    align-content: center;
+}
+.seat_info {
+    color: black;
+    font-style: italic;
+}
+.title_info {
+    color: palevioletred;
+    text-decoration: underline;
+}
+#mapContainer {
+    padding: 10px; 
+}
+.warn {
+    color: palevioletred;
+}
+h3.ticHead {
+    color: black;
+    font-style: italic;
+}
+img {
+    width: 20%;
+}
+
+#ticketmode{
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 25px;
+    font-size: 15px;
+    background-color: palevioletred;
+    margin-left: 15px;
+    color: white;
+}
+
+#ticketmode:hover{
+    background-color: lightcoral;
+}
+#mapmode{
+     margin-top: 15px;
+    padding: 5px;
+    border-radius: 25px;
+    font-size: 15px;
+    background-color: palevioletred;
+    margin-left: 15px;
+    color: white;
+}
+.mapDiv {
+    margin-top: 10px; 
+    border: solid black;
+    margin: 10 auto;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 10px 5px 5px black;
+    background-color: lightgreen;
+    width: 97%;
+    align-content: center;
+}
+.maptext {
+    color: palevioletred;
+}
+#mapmode:hover{
+    background-color: lightcoral;
+}
+
+#flight_cancelled_text{
+    font-size: 32px;
+    margin: 0 auto;
+    color: palevioletred;
+
+}
+
+#is_cancelled_cont{
+     border: solid black;
+    width: 50%;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 25px;
+    margin-top: 5%;
+    box-shadow: 10px 5px 5px black;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+#next_available_flights_button{
+    margin-top: 15px;
+   
+}
+#add_message{
+    margin-top: 5%;
+}
+
+#AFF{
+   border: solid black;
+    margin: 0 auto;
+    width: 75%;
+    height: 300px;
+    border-radius: 25px;
+    margin-top: 5%;
+    box-shadow: 10px 5px 5px black;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+#list_of_available_flights{
+   overflow: scroll;
+    height: 500px;
+}
+
+.available_flight{
+    background-color: palevioletred;
+    width: 100%;
+    margin: 5%;
+    margin-left: 1%;
+}

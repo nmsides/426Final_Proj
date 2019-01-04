@@ -1,0 +1,290 @@
+html{
+    background-color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#acc{
+    margin-top: 0%;
+    margin-left: 2%;
+    border-radius: 25px;
+    background-color: none;
+    font-size: 16px;
+}
+
+#undo{
+    position: absolute;
+    top: 1%;
+}
+
+#container{
+    border: solid black;
+    width: 75%;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 25px;
+    margin-top: 5%;
+    box-shadow: 10px 5px 5px black;
+    background-color: whitesmoke;
+}
+
+#ul_cont{
+    height: 397px;
+    overflow: scroll;
+}
+
+h2{
+    margin-left: 5%;
+    font-size: 40px;
+}
+
+#input {
+  width: 90%;
+  font-size: 32px;
+  padding: 12px 20px 12px 40px;
+ border-radius: 25px;
+    margin-left: 5%;
+  margin-bottom: 12px;
+    background-color: white;
+   border: solid black;
+    color: black;
+}
+
+#input:focus {
+  background-color: lavender;
+    color: black;
+}
+
+#flight_list {
+  list-style-type: none;
+  width: 90%;
+  padding: 0;
+  margin-left: 5%;
+  
+  
+}
+
+#flight_list li a {
+  border: 1px solid black;
+  margin-top: -1px; 
+  background-color: #f6f6f6;
+  margin: 5px;
+  text-decoration: none;
+  font-size: 32px;
+  color: black;
+  display: block;
+  background-color: white;
+}
+
+::placeholder{
+    color: black;
+}
+
+#flight_list li a:hover {
+  background-color: lightgray;
+    color: black;
+}
+
+
+#congrats{
+    color: black;
+    text-align: center;
+    margin-bottom: -50px;
+    font-size: 40px;
+}
+
+#sched{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+#another{
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 25px;
+    font-size: 15px;
+    background-color: white;
+}
+
+#another:hover{
+    background-color: lavender;
+}
+
+#an{
+    text-decoration: none;
+    color: black;
+}
+
+hr{
+    color: white;
+}
+
+
+@media only screen and (max-width: 800px) {
+  #congrats {
+    font-size: 30px;
+      margin-bottom: 2%;
+  }
+    #container{
+        height: 90%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+  #congrats {
+    font-size: 20px;
+      margin-bottom: 2%;
+  }
+    #container{
+        height: 90%;
+    }
+}
+
+
+.tic {
+    margin-bottom: 10px;
+}
+
+#myTicket {
+    border: solid black;
+    margin: 10 auto;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 10px 5px 5px black;
+    background-color: white;
+    width: 97%;
+    align-content: center;
+}
+#myInfo {
+    border: solid black;
+    margin: 10 auto;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 10px 5px 5px black;
+    background-color: white;
+    width: 97%;
+    align-content: center;
+}
+.seat_info {
+    color: black;
+    font-style: italic;
+}
+.title_info {
+    color: black;
+    text-decoration: underline;
+}
+#mapContainer {
+    padding: 10px; 
+}
+.warn {
+    color: lightgray;
+}
+h3.ticHead {
+    color: black;
+    font-style: italic;
+}
+img {
+    width: 20%;
+}
+
+#ticketmode{
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 25px;
+    font-size: 15px;
+    background-color: white;
+    margin-left: 15px;
+    color: black;
+}
+
+#ticketmode:hover{
+    background-color: lightgray;
+}
+#mapmode{
+     margin-top: 15px;
+    padding: 5px;
+    border-radius: 25px;
+    font-size: 15px;
+    background-color: white;
+    margin-left: 15px;
+    color: black;
+}
+.mapDiv {
+    margin-top: 10px; 
+    border: solid black;
+    margin: 10 auto;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 10px 5px 5px black;
+    background-color: white;
+    width: 97%;
+    align-content: center;
+}
+.maptext {
+    color: black;
+    text-decoration: none;
+}
+#mapmode:hover{
+    background-color: lightgray;
+}
+
+#flight_cancelled_text{
+    font-size: 32px;
+    margin: 0 auto;
+    color: black;
+
+}
+
+#is_cancelled_cont{
+     border: solid black;
+    width: 50%;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 25px;
+    margin-top: 5%;
+    box-shadow: 10px 5px 5px black;
+    background-color: white;
+    text-align: center;
+}
+
+#next_available_flights_button{
+    margin-top: 15px;
+   
+}
+#add_message{
+    margin-top: 5%;
+}
+
+#AFF{
+   border: solid black;
+    margin: 0 auto;
+    width: 75%;
+    height: 500px;
+    border-radius: 25px;
+    margin-top: 5%;
+    box-shadow: 10px 5px 5px black;
+    background-color: white;
+    text-align: center;
+}
+
+#list_of_available_flights{
+   overflow: scroll;
+    height: 300px;
+    border: solid black;
+}
+
+.available_flight{
+    background-color: white;
+    width: 100%;
+    margin: 5%;
+    margin-left: 1%;
+}
+
+#nofl{
+    text-decoration: none;
+    color: black;
+}
+
